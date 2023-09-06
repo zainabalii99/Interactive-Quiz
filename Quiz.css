@@ -1,0 +1,40 @@
+body {
+    background:linear-gradient(135deg,#b76f83,#86627c);
+    padding: 20px 450px;
+}
+
+.quizApp {
+background-color: #c9b6bb;
+border-radius: 20px;
+padding: 10px 30px;
+width: 500px;
+height: auto;
+justify-content: space-around;
+
+
+
+}
+.h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+.Question {
+    padding: 15px 20px;
+    font-size: 30px;
+    border-radius: 20px;
+    border-color: #86627c;
+    background-color: rgb(200, 141, 175);
+    justify-content: space-around;
+    height: auto;
+}
+.submit {
+    background-color: #df42b3;
+    display: block;
+    width: 200px;
+    height: 50px;
+    border-radius: 30px;
+    font-size: 25px;
+    
+}

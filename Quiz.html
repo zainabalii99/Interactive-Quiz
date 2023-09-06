@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Quiz</title>
+    <link rel="stylesheet" type="text/css" href="Quiz.css" />
+</head>
+<body>
+    <div class="quizApp">
+        <h1 class="h1">Interactive Quiz</h1>
+        <div class="Question"> 
+            Which of these "Fish" is actually a Fish ? <br><br>
+            <input type="radio" name="Q1"class="style">Crayfish<br>
+            <input type="radio" name="Q1" class="style" id="correct1">Swordfish<br>
+            <input type="radio" name="Q1" class="style">Starfish<br>
+        </div><br>
+        <div class="Question"> 
+            The tiniest animal with a backbone is a ?? <br><br>
+            <input type="radio" name="Q2"class="style">Bird<br>
+            <input type="radio" name="Q2" class="style">Fish<br>
+            <input type="radio" name="Q2" class="style" id="correct2">Frog<br>
+        </div><br>
+        <div class="Question"> 
+            Which animal species can live in extremes of both heat and cold, from -20F to 120F ? <br><br>
+            <input type="radio" name="Q3"class="style">polar<br>
+            <input type="radio" name="Q3" class="style" id="correct3">Bactrian camel<br>
+            <input type="radio" name="Q3" class="style">emperor penguin<br>
+        </div><br>
+        <div class="Question"> 
+            Known for its intelligence, which dog breed has been found capable of understanding more than a thousand words?<br><br>
+            <input type="radio" name="Q4"class="style" id="correct4">Border Collie<br>
+            <input type="radio" name="Q4" class="style">Dachshund<br>
+            <input type="radio" name="Q4" class="style">Cocker Spaniel<br>
+        </div><br>
+        <div class="Question"> 
+            The largest "town" home to what animal was an underground colony measuring 25,000 square miles, found in Texas? <br><br>
+            <input type="radio" name="Q5"class="style">beaver<br>
+            <input type="radio" name="Q5" class="style">meerkat<br>
+            <input type="radio" name="Q5" class="style" id="correct5">prairie dog<br>
+        </div><br>
+        <div style="padding: 10px 150px;">
+            <input type="submit" name="submit" value="submit" class="submit" onclick="result()"><br>
+        </div>
+        </div>
+
+        <script src="Quiz.js"></script>
+</body>
+</html>
